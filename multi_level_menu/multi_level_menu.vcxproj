@@ -127,7 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="menu_functions.cpp" />
+    <ClCompile Include="menu_items.cpp" />
     <ClCompile Include="multi_level_menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.hpp" />
+    <ClInclude Include="menu_functions.hpp" />
+    <ClInclude Include="menu_items.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
